@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const port = 5000;
+const port = 8000;
 
 app.get('/data', (req, res) => {
     res.send('hello this is learning class')
